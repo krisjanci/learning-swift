@@ -2,46 +2,12 @@ import Playgrounds
 
 #Playground {
     
-    var greeting = "Hello, Playground"
+    let temp_c = 20.0
     
-    greeting = "Hi"
-    greeting = "Whatup"
-    print(greeting)
+    let temp_f = temp_c * 9 / 5 + 32
     
-    let name = "Kris"
-    
-    
-    
-    let kris_quote = "Kris said \"Hi!\""
-    print(kris_quote)
-    
-    
-    let new_quote = """
-        Hi,
-        My name is Kris!
-        """
-    
-    print(name.count)
-    
-    print(name.uppercased())
-    
-    let number = 0.1+0.2
-    print(number)
-    
-    let whole_number = 1
-    print(Double(whole_number)+number)
-    
-    var game_over = false
-    
-    print(game_over)
-    
-    game_over.toggle()
-    
-    print(game_over)
-    
-    var sentence = greeting + ", " + name + "!"
-    sentence = "Hey \(greeting), \(name)!"
-    
+    print("The temperature in celsius is \(temp_c)")
+    print("The temperature in fahrenheit is \(temp_f)")
     
 }
 
