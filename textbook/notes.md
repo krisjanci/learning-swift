@@ -57,4 +57,22 @@ Beginner explanation: when you want swift to measure something, no parentheses n
 
 ### How to store whole numbers
 
-- It's mostly same as python
+- It's mostly same as python.
+
+### How to store decimal numbers
+
+- A float number in swift is called Double.
+
+You cannot add and integer and a double in swift.
+
+E.g.
+```swift
+let double = 0.1
+let integer = 1
+print(double+integer)
+```
+Output: Error because swift won't let us mix two data types.
+
+Change both to the same data type to add together.
+
+- Constant and variable cannot change data types, so if u put a string in a variable and you want to change it to an integer, it'll not let you.

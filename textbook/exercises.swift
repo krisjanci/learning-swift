@@ -24,6 +24,13 @@ import Playgrounds
     print(name.count)
     
     print(name.uppercased())
+    
+    let number = 0.1+0.2
+    print(number)
+    
+    let whole_number = 1
+    print(Double(whole_number)+number)
+    
 }
 
 
