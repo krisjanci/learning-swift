@@ -81,3 +81,22 @@ Change both to the same data type to add together.
 
 - Mostly same as python.
 
+### How to join string together
+
+- Mostly same as python.
+
+E.g.
+```swift
+let greeting = "Hi"
+let name = "Kris"
+
+let sentence = greeting + "," + name + "!"
+
+OR
+
+let sentence + "\(greeting), \(name)!"
+```
+Output: Hi, Kris!
+
+In the first version you need to keep data types the same, in the second you don't becasue it changes evrything to a string.
+

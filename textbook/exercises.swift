@@ -39,6 +39,10 @@ import Playgrounds
     
     print(game_over)
     
+    var sentence = greeting + ", " + name + "!"
+    sentence = "Hey \(greeting), \(name)!"
+    
+    
 }
 
 
