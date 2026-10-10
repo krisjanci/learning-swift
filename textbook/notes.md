@@ -2,6 +2,8 @@
 
 ## Introduction to SWIFT - https://www.hackingwithswift.com/100/swiftui by Paul Hudson
 
+### How to create variables and constants 
+
 - **#Playground** is a place in xcode where you can practice code and see what it does straight away.
 
 Xcode makes me put my practice code inside `#Playground { }` so Swift knows it belongs in one safe place instead of being shared everywhere.
@@ -13,3 +15,43 @@ When you later change the variable, you don't use var anymore. E.g. `greeting = 
 - You can create a **constant** which is the same thing as a variable but you cannot change it later. 
 
 You create it with `let`. E.g. `let name = "Kris"`.
+
+### How to create strings
+
+- Strings are used mostly the same way as in python. 
+
+- To have quotes in your string you need to use backslashes. E.g. `let quote = "He said \"Hi\"`
+
+- To have a string on multiple lines, use tripple quotes. 
+
+E.g. 
+```swift
+let quote = """
+    Kris said:
+    Hi!
+    How are you?
+    """
+```
+
+- To get the length of a string, you use .count after the constant or variable name. 
+
+E.g. 
+```swift
+let greeting = "Hello"
+print(greeting.count)
+```
+Output: 5
+
+- To get the string upper cased, use `.uppercased`. 
+
+E.g. 
+```swift
+let greeting = "Hello"
+print(greeting.uppercased())
+```
+Output: HELLO
+
+- `.count` used no parentheses and `.uppercased()`
+
+Beginner explanation: when you want swift to measure something, no parentheses needed. If you need swift to do something, parentheses are needed.
+
