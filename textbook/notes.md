@@ -76,3 +76,8 @@ Output: Error because swift won't let us mix two data types.
 Change both to the same data type to add together.
 
 - Constant and variable cannot change data types, so if u put a string in a variable and you want to change it to an integer, it'll not let you.
+
+### How to store truth with Booleans
+
+- Mostly same as python.
+

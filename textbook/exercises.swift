@@ -31,6 +31,14 @@ import Playgrounds
     let whole_number = 1
     print(Double(whole_number)+number)
     
+    var game_over = false
+    
+    print(game_over)
+    
+    game_over.toggle()
+    
+    print(game_over)
+    
 }
 
 
