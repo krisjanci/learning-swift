@@ -55,3 +55,6 @@ Output: HELLO
 
 Beginner explanation: when you want swift to measure something, no parentheses needed. If you need swift to do something, parentheses are needed.
 
+### How to store whole numbers
+
+- It's mostly same as python
