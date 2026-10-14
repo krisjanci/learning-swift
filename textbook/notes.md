@@ -43,3 +43,8 @@
     Output: 
     Optional("John")
     John
+
+### How to use sets for fast data lookup
+
+- Sets are basically the same in swift as in python.
+

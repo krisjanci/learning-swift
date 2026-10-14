@@ -26,9 +26,11 @@ import Playgrounds
     
     print(account)
     
-    print(account["name"])
     print(account["age", default:"unknown"])
     
+    var names = Set(["Kris","Josh","Mike"])
+    
+    names.insert("Javi")
 }
 
 
