@@ -21,3 +21,25 @@
     print(numbers)
     ```
     Output: [5,10]
+
+### How to store and find data in Dictionaries
+
+- Dictionaries in swift are mostly the same as in python with one key difference:
+
+    - When you ask to print a value from a dictionary, you need to provide a default value in case the value is missing. This is to prevent the code to break if you try to use a non existant value.
+
+    E.g.
+    ```swift
+    let account = [
+        "name":"John",
+        "age":52,
+        "location":"US"
+    ]
+
+    print(account["name"])
+
+    print(account["name", default:"unknown"])
+    ```
+    Output: 
+    Optional("John")
+    John

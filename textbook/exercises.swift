@@ -18,6 +18,17 @@ import Playgrounds
     numbers.append(10)
     print(numbers)
     
+    let account = [
+        "name":"Kristian",
+        "age":52,
+        "pet":"dog"
+    ]
+    
+    print(account)
+    
+    print(account["name"])
+    print(account["age", default:"unknown"])
+    
 }
 
 
