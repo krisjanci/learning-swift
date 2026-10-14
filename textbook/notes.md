@@ -48,3 +48,25 @@
 
 - Sets are basically the same in swift as in python.
 
+### How to create and use Enums
+
+- Enums exist to create a custom data type.
+
+E.g.
+```swift
+enum options {
+    case option1
+    case option2 
+    case option3
+
+var selected_option = options.option1
+
+selected_option = options.option2
+
+selected_option = .option3
+}
+```
+
+- In this example, 'selected_options` is an enum data type and cannot change to a string or an integer.
+
+- A use case for this is to make sure there is a control to what a variable can become. For example if you want a user to have only a few options to pick from.

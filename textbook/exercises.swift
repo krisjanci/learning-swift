@@ -31,6 +31,18 @@ import Playgrounds
     var names = Set(["Kris","Josh","Mike"])
     
     names.insert("Javi")
+    
+    enum options {
+        case option1
+        case option2
+        case option3
+    }
+    
+    var selected_option = options.option1
+    
+    selected_option = options.option2
+    
+    selected_option = .option3
 }
 
 
