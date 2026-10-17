@@ -43,6 +43,10 @@ import Playgrounds
     selected_option = options.option2
     
     selected_option = .option3
+    
+    var number = 0
+    
+    var number_as_string: String = "0"
 }
 
 

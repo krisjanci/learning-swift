@@ -70,3 +70,50 @@ selected_option = .option3
 - In this example, 'selected_options` is an enum data type and cannot change to a string or an integer.
 
 - A use case for this is to make sure there is a control to what a variable can become. For example if you want a user to have only a few options to pick from.
+
+### How to use type annotations
+
+- When we make a variable or a constant, swift assigns a data type to it automatically. If you want to assign type manually, you can with this code:
+
+```swift 
+var number = 0 // saves as an integer type
+
+var number_in_string: String = "0" // saves as a string
+
+var score: Double = 0 // If you want to save a number with which you want decimals later.
+```
+
+- There are 4 data types:
+
+```swift 
+var number: Int = 0
+
+var float_number: Double = 0.0
+
+var word: String = "word"
+
+var state: Bool = true
+```
+
+- Arrays must be specialised:
+
+```swift
+var numbers: [Int] = [0,1,2,3]
+```
+
+- Dictionaries must have specialised keys and values but they don't need to be the same:
+
+```swift 
+var user: [String:String] = ["Name":"Id"]
+```
+
+- Sets have to be specialised and they don't hold duplicates.
+
+```swift
+var users: Set<String> = Set(["John","Jake","Bob"])
+```
+
+- This is helpful when you want to create a variable that is empty and want to add a specific data type.
+
+(Unfinished)
+
